@@ -1,0 +1,423 @@
+
+body{
+    /*background: #430000;*/
+    /*color: white;*/
+    /*font-family: "Din pro", serif;*/
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 1000px;
+    padding: 12px 0 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.page_title {
+    text-align: center;
+    padding: 15px 0 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.header_block {
+    height: 80px;
+}
+
+.f_button {
+    border: solid 2px white;
+    padding: 10px 0 10px;
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    color: white;
+    /*background: white;*/
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.f_button:hover {
+    color: black;
+    background: white;
+}
+
+
+a.f_button,
+a.f_button:link,
+a.f_button:visited,
+a.f_button:active {
+    border: solid 2px white;
+    padding: 10px 0 10px;
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    /*background: white;*/
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+a.f_button:hover {
+    color: black !important;
+    background: white;
+}
+
+.header_block .logo_section {
+    float: left;
+}
+
+.header_block .logo_section .logo_image {
+    /*display: inline-block;*/
+}
+
+.header_block .logo_section a.logo_text,
+.header_block .logo_section a.logo_text:link,
+.header_block .logo_section a.logo_text:active,
+.header_block .logo_section a.logo_text:visited {
+    /*display: inline-block;*/
+    margin-left: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.header_block .header_additional_section {
+    float: right;
+    font-size: 9px;
+}
+
+.header_block .header_additional_section .lang {
+    padding-right: 20px;
+}
+
+.header_block .header_additional_section .lang .selected_language {
+    color: white;
+    cursor: pointer;
+}
+
+.header_block .header_additional_section .lang .language_delimiter {
+    color: #991101;
+}
+
+.header_block .header_additional_section .lang .link_to_language a,
+.header_block .header_additional_section .lang .link_to_language a:active,
+.header_block .header_additional_section .lang .link_to_language a:link,
+.header_block .header_additional_section .lang .link_to_language a:visited {
+    color: red;
+    cursor: pointer;
+}
+
+.header_block .header_additional_section .lang .link_to_language a:hover {
+    color: white;
+}
+
+.header_block .header_additional_section .user_block {
+
+}
+
+.header_block .header_additional_section .user_block a,
+.header_block .header_additional_section .user_block a:link,
+.header_block .header_additional_section .user_block a:active,
+.header_block .header_additional_section .user_block a:visited {
+    color: white;
+    text-transform: uppercase;
+}
+
+.header_block .header_additional_section .user_block a:hover {
+    color: red;
+    margin-top: 20px;
+}
+
+.user_block{
+
+}
+
+.userName_block{
+    color: white;
+    margin-top: 8px;
+    font-size: 10px;
+    text-align: right;
+}
+
+
+
+.clear_both {
+    clear: both;
+}
+
+
+.main_menu {
+    color: white;
+
+    background: linear-gradient(to right, rgba(67, 0, 0, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 0, 0, 0.8));
+
+    padding: 1px 10px 5px;
+    margin: 5px 0 30px;
+    text-align: center;
+}
+
+.main_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.main_menu ul li a,
+.main_menu ul li a:visited,
+.main_menu ul li a:link,
+.main_menu ul li a:active {
+
+    /*color: #F2EFEF;*/
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 0 25px 0 27px;
+}
+
+.main_menu ul li a,
+.main_menu ul li a.active:visited,
+.main_menu ul li a.active:link,
+.main_menu ul li a.active:active {
+
+    font-weight: 800;
+    /*color: #DE0000;*/
+    color: #F2EFEF;
+
+
+    /*color: #F2EFEF;*/
+    /*font-weight: 400;*/
+    /*font-size: 13px;*/
+    /*letter-spacing: 1px;*/
+    /*text-decoration: none;*/
+    /*padding: 0 25px 0 27px;*/
+}
+
+.main_menu ul li a:hover {
+    font-weight: 800;
+    /*color: #DE0000;*/
+    color: #F2EFEF;
+}
+
+.main_menu ul li:after {
+    content: "|";
+    font-size: 20px;
+    color: #BD2716;
+}
+
+.main_menu ul li:last-child:after {
+    content: "";
+}
+
+.main_map {
+    text-align: center;
+}
+
+.brunches_block {
+    margin-top: 20px;
+}
+
+.brunches_block .brand_item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.brunches_block .brand_item .brunch_text {
+    margin-top: 10px;
+    font-size: 11px;
+    padding: 0 45px;
+}
+
+.news_block {
+    margin-top: 40px;
+}
+
+.news_block .title {
+    text-align: center;
+    padding: 30px 0 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.news_block .brand_item {
+    border: 1px solid #CCCCCC;
+    background: white;
+    color: black;
+    height: 278px;
+    max-width: 100%;
+    padding: 0;
+}
+
+.news_block .brand_item .title {
+    position: absolute;
+    left: 25px;
+    top: 80px;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    text-shadow: 1px 1px 17px black;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+}
+
+
+.news_block .brand_item .brunch_image {
+    height: 130px;
+}
+
+
+.news_block .brand_item img{
+    width: 253px;
+    /*height: 100px;*/
+    position: absolute;
+}
+
+.news_block .brand_item .text {
+    font-size: 10px;
+    padding: 5px 10px;
+}
+
+.news_block .brand_item .card_footer {
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.news_block .brand_item .card_footer .next {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.news_block .brand_item .card_footer .next a,
+.news_block .brand_item .card_footer .next a:link,
+.news_block .brand_item .card_footer .next a:visited,
+.news_block .brand_item .card_footer .next a:active {
+    color: #BD2716;
+}
+
+.news_block .brand_item .card_footer .date {
+    float: right;
+    color: black;
+    font-size: 12px;
+}
+
+.buttons_block {
+    text-align: center;
+    /*margin: 100px 0 30px;*/
+}
+
+.buttons_block .other_news a,
+.buttons_block .other_news a:link,
+.buttons_block .other_news a:visited,
+.buttons_block .other_news a:active {
+    border: solid 2px white;
+    padding: 10px 0 10px;
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons_block .other_news a:hover {
+    color: black;
+    background: white;
+}
+
+.buttons_block .subscribe {
+    margin-top: 10px;
+}
+
+.buttons_block .subscribe a,
+.buttons_block .subscribe a:link,
+.buttons_block .subscribe a:visited,
+.buttons_block .subscribe a:active {
+    border: solid 2px white;
+    padding: 10px 0 10px;
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    color: black;
+    text-decoration: none;
+    background: white;
+}
+
+.buttons_block .subscribe a:hover {
+    color: white;
+    background: none;
+}
+
+
+footer.main_footer {
+    border-top: 1px #9F0000 solid;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+footer.main_footer .right {
+    float: right;
+}
+
+footer.main_footer .right .tel {
+    font-size: 11px;
+}
+
+footer.main_footer .right .tel .number {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer.main_footer .right .letter {
+    margin-top: 10px;
+}
+
+footer.main_footer .right .letter a,
+footer.main_footer .right .letter a:link,
+footer.main_footer .right .letter a:active,
+footer.main_footer .right .letter a:visited {
+    border: solid 2px white;
+    padding: 10px 0 10px;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer.main_footer .left {
+
+}
+
+footer.main_footer .left .firm {
+    font-size: 12px;
+}
+
+footer.main_footer .left .soc {
+    margin-top: 30px;
+}
+
+footer.main_footer .left .soc a {
+    margin-right: 5px;
+}
+
+.hidden_item {
+    display: none;
+    font-size: 14px;
+}
