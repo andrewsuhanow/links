@@ -1,0 +1,24 @@
+
+
+php artisan make:migration create_categories_table --create=categories
+php artisan make:model Models/Categories
+
+
+-- categories
+	id
+	name (str)
+	slug (str)
+	status (int)   
+	
+
+-- sites
+	id
+	name (str)
+	link_url (txt)
+	description (txt)
+	cover_url (txt)    777
+	
+-- sites_categories_connect
+	categories_id (int)
+	sites_id      (int)
+	

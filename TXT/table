@@ -1,0 +1,28 @@
+
+
+
+
+
+- categories
+	- id 
+	- name (string)
+	- slug (string)
+	- description (text)
+
+
+
+
+- links
+	- id
+	- name  (string)
+	- link (text)
+	- description (text)
+
+
+
+- categories_link
+	- id
+	- link_id (int)
+	- category_id (int)
+
+
