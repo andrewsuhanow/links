@@ -20,4 +20,6 @@
 
 Route::get('/', ['as'=>'main','uses'=>'MainController@Main']);
 
-Route::post('/', ['as'=>'main_post','uses'=>'MainController@MainPost']);
+Route::post('/', ['as'=>'post_save_db_link','uses'=>'MainController@PostSaveBDLink']);
+
+//Route::post('/', ['as'=>'post_load_db_link','uses'=>'MainController@PostLoadBDLink']);

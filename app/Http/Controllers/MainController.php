@@ -27,7 +27,7 @@ class MainController extends BaseController
     }
 
 
-    public function MainPost(Request $request){
+    public function PostSaveBDLink(Request $request){
 
 
         $aBDLinks = new Links();
@@ -50,5 +50,23 @@ class MainController extends BaseController
     }
 
 
+    /*public function PostLoadBDLink(Request $request){
+
+
+        $aBDLinks = Links::get();
+
+
+
+
+
+        return response()->json([
+            'status' => 'success',
+            'data' => $aBDLinks,
+            'newLink' => $request->newLink,
+             'newname' => $request->newname,
+             'newdescription' => $request->newdescription,
+
+        ]);
+    }*/
 
 }

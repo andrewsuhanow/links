@@ -29,26 +29,27 @@
         <div class="row">
                 <div class="categories_block">
 
-                    @forelse($aBDLinks as $itBDLinks)
-                    <div>
-                        <div class="jumbotron shadow p-3 categories_sub_block">
+                    @forelse($aBDLinks as $kay => $itBDLinks)
+
+                        <div class="jumbotron shadow p-3 categories_sub_block" id="link_{{$itBDLinks->id}}">
+                            {{$itBDLinks->id}}
                             <div class="container-fluid " >
                                 <div class="row">
-                                    <div class="col-10">
+                                    <div class="col-10 name">
                                         <h1>{{$itBDLinks->name}}</h1>
                                     </div>
                                     <div class="col-1">
                                         <button type="button" class="btn btn-outline-danger">Delete</button>
                                     </div>
                                     <div class="col-1">
-                                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#ModalEdit">Edit</button>
+                                        <button type="button" class="btn btn-outline-dark edit_link" id="{{$itBDLinks->id}}" data-toggle="modal" data-target="#ModalEdit">Edit</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="description"> {{$itBDLinks->description}} </div>
                             <a class="lead"> <b>Link:</b>  {{$itBDLinks->link}}</a>
                         </div>
-                    </div>
+
                     @empty
                     @endforelse
 
@@ -69,7 +70,9 @@
 
                 </div>
                 <div class="modal-body">
- 
+                        <input class="main_input w-100 change_name" type="text" placeholder="Enter link" >
+                        <input class="main_input w-100 change_link" type="text" placeholder="Enter link" >
+                        <input class="main_input w-100 change_description" type="text" placeholder="Enter link" >
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -137,7 +140,7 @@
                     newdescription: newdescription,
                 };
 
-                $.post('{{ route('main') }}', params, res => {
+                $.post('{{ route('post_save_db_link') }}', params, res => {
 
                     //console.log('ответ получен');
                     // console.log(res.param1);    // Возвращенный результат
@@ -167,6 +170,28 @@
                 $('.period_line_item .circle_item').removeClass('active_circle_item');
                 $('.period_line_item.' + period + ' .circle_item').addClass('active_circle_item');*/
             });
+
+
+
+
+            $('.edit_link').bind('click', function () {
+                var thisId = $(this).attr('id');
+                //var thisName = $('.edit_link').text();
+                var thisName = $('#link_' + thisId + ' .name h1').text();
+
+
+
+
+                var currentBlock = $(this).closest('.categories_sub_block');
+
+                // console.log(currentBlock);
+                //
+                // console.log();
+
+                console.log(thisName);
+            });
+
+
         });
 
     </script>
