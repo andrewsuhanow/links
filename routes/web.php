@@ -18,4 +18,6 @@
 
 
 
-Route::get('/', ['as'=>'o','uses'=>'MainController@Main']);
+Route::get('/', ['as'=>'main','uses'=>'MainController@Main']);
+
+Route::post('/', ['as'=>'main_post','uses'=>'MainController@MainPost']);

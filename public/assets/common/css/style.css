@@ -26,12 +26,12 @@ body{
 }
 
 .main_input {
-    background: #b0ffaf;
+    background: #bd9653;
     color: black;
 }
 
 .main_input:focus {
-    background: #b0ffaf;
+    background: #bd9653;
     border: 1px solid #000000
 }
 
