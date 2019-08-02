@@ -12,7 +12,7 @@
 
 @section('content')
 
-
+{{--<div class="contant-main-page " >--}}
 
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
         {{--<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>--}}
@@ -27,12 +27,13 @@
 
     <div class="container-fluid " >
         <div class="row">
-                <div class="categories_block">
+            <div class="categories_block" >
+                <div class="push-effect">
 
                     @forelse($aBDLinks as $kay => $itBDLinks)
 
                         <div class="jumbotron shadow p-3 categories_sub_block" id="link_{{$itBDLinks->id}}">
-                            {{$itBDLinks->id}}
+                               {{$itBDLinks->id}}
                             <div class="container-fluid " >
                                 <div class="row">
                                     <div class="col-10 name">
@@ -52,12 +53,12 @@
 
                     @empty
                     @endforelse
-
                 </div>
+            </div>
         </div>
     </div>
 
-
+{{--</div>--}}
 
     <div class="modal fade" id="ModalEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -89,21 +90,40 @@
 
     <style>
 
+
+        .contant-main-page{
+
+        }
         .categories_block{
-            background: #5c430f;
+            /*background: #5c430f;*/
+            background: linear-gradient(45deg, #302e52, #494db0);
             min-height: 100vh;
             min-width: 100vw;
             padding: 50px;
         }
 
+        .push-effect{
+            border: 10px solid rgba(0,0,0,0.2);
+            border-radius: 20px;
+            border-color: #494db0;
+
+
+        }
+
         .categories_sub_block{
-            background: #b78918;
+            background: linear-gradient(90deg, #31357a, #313158);
+            /*border: 6px double black;*/
+            border-color: #6382ff;
+            border-style: solid;
+            color: #6382ff;
+
         }
 
         .description{
-            background: #745010;
-            border: 4px solid;
-            border-color: #846211;
+            color: #f8f9fa;
+            border: 1px;
+            border-color: #4c4cff;
+            border-style: solid;
             padding: 7px;
             min-height: 50px;
         }

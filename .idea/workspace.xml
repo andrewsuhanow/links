@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../favorit/resources/views/common/production.blade.php" description="$trademarks" line="363" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="3aa47b57-ae37-4a9f-9ebf-4660ac8a5b30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/common/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/common/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/common/main_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/common/main_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,29 +14,23 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="170">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/common/layouts/main_block.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="e#40#85#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="292">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -47,14 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/common/main_page.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="179" column="55" selection-start-line="179" selection-start-column="55" selection-end-line="179" selection-end-column="55" />
-              <folding>
-                <element signature="e#1998#3208#0#HTML" />
-                <element signature="e#2396#2403#1#HTML" expanded="true" />
-                <element signature="e#0#1958#0#Blade" />
-                <element signature="e#2146#2757#0#HTML" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -62,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/common/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="476">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -98,10 +83,11 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Main.php" />
         <option value="$PROJECT_DIR$/resources/views/common/layouts/main_block.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/public/assets/common/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/main_page.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MainController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/public/assets/common/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/common/main_page.blade.php" />
       </list>
     </option>
@@ -203,141 +189,77 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
+              <item name="links.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="links.loc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
+              <item name="links.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="links.loc" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
+              <item name="links.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="links.loc" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
+              <item name="links.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="links.loc" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
+              <item name="links.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="links.loc" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
+              <item name="links.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="links.loc" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="link_holding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="link_holding" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="links.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/common" />
+      <recent name="$PROJECT_DIR$/resources/views/common/layouts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer_5_3_0\OSPanel\domains\links.loc" />
       <recent name="$PROJECT_DIR$/public/components" />
       <recent name="$PROJECT_DIR$/resources/views/common/partial" />
       <recent name="$PROJECT_DIR$/resources/views/head" />
       <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/common" />
-      <recent name="$PROJECT_DIR$/resources/views/common/layouts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -370,17 +292,20 @@
       <updated>1561899015492</updated>
       <workItem from="1561899016944" duration="6773000" />
       <workItem from="1561987286467" duration="10549000" />
+      <workItem from="1564402435606" duration="3197000" />
+      <workItem from="1564494676818" duration="104000" />
+      <workItem from="1564758540496" duration="3743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27303000" />
+    <option name="totallyTimeSpent" value="34347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1282" height="1004" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2515625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,10 +329,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/common/main_page.blade.php</url>
+          <line>115</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_26_153619_create_categories_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_30_131732_create_categories_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
@@ -509,26 +442,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/common/layouts/main_block.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/common/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/web.config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="683">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#40#85#0#PHP" expanded="true" />
@@ -538,21 +464,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="170">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/common/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/common/layouts/main_block.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/common/main_page.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="179" column="55" selection-start-line="179" selection-start-column="55" selection-end-line="179" selection-end-column="55" />
-          <folding>
-            <element signature="e#1998#3208#0#HTML" />
-            <element signature="e#2396#2403#1#HTML" expanded="true" />
-            <element signature="e#0#1958#0#Blade" />
-            <element signature="e#2146#2757#0#HTML" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
         </state>
       </provider>
     </entry>

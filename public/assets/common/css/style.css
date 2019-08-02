@@ -26,13 +26,13 @@ body{
 }
 
 .main_input {
-    background: #bd9653;
+    background: #494db0;
     color: black;
 }
 
 .main_input:focus {
-    background: #bd9653;
-    border: 1px solid #000000
+    background: #494db0;;
+    border: 1px solid #4c4cff;
 }
 
 
